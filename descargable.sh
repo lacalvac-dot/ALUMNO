@@ -35,10 +35,5 @@ ssh -V
 curl --version
 jq --version
 
-echo -e "\n=== 6. VALIDANDO CONEXIÓN A AWS ==="
-# Comprobamos identidad y región activas (requiere haber ejecutado 'aws configure')
-aws sts get-caller-identity
-aws configure get region
-aws s3 ls
-
-echo -e "\n=== ¡Entorno listo, instalado y validado con éxito! ==="
+echo -e "\n=== ¡Software instalado y carpetas creadas con éxito! ==="
+echo "Para validar la conexión con AWS, configura tus credenciales con 'aws configure' y ejecuta los comandos del README.md."

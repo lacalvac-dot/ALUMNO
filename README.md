@@ -1,9 +1,7 @@
 # ALUMNO
 ## Instalamos el visual studio code mediante la interfaz gráfica:  https://code.visualstudio.com/docs/setup/linux
 
-# ---------------------------------------------------------------------
 # 6. VALIDACIÓN DE CONEXIÓN A AWS (SECCIÓN MANUAL POST-CONFIGURACIÓN)
-# ==============================================================================
 # NOTA: Para ejecutar estos comandos de validación, primero debes configurar 
 # tus credenciales temporales del laboratorio ejecutando 'aws configure'.
 

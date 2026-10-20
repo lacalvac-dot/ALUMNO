@@ -16,7 +16,7 @@ echo -e "\n=== 3. DESCARGAR E INSTALAR TERRAFORM ==="
 # Repositorio e instalación oficial de HashiCorp Terraform
 wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
-sudo apt update && sudo apt install -y terraform
+sudo apt update && sudo apt install terraform
 
 echo -e "\n=== 4. DESCARGAR E INSTALAR AWS CLI V2 ==="
 # Descarga e instalación oficial de AWS CLI v2
